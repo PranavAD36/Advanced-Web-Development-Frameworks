@@ -4,6 +4,7 @@ function getAllTasks(req, res) {
   res.status(200).json(tasks);
 }
 
+
 function getTaskById(req, res) {
   const id = parseInt(req.params.id, 10);
   const task = tasks.find((item) => item.id === id);
@@ -14,7 +15,7 @@ function getTaskById(req, res) {
 
   res.status(200).json(task);
 }
-    
+
 function createTask(req, res) {
   const { title, description, completed } = req.body;
 

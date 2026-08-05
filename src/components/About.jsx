@@ -14,7 +14,7 @@ export default function About() {
         I enjoy creating responsive solutions that look professional and
         perform smoothly across devices.
       </p>
-
+    
       <div className="about-grid">
         <div className="about-item">
           <span>Education</span>

@@ -1,0 +1,16 @@
+{
+  "name": "awf-practical-4-backend",
+  "version": "1.0.0",
+  "description": "Task Manager REST API for AWF Practical 4",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

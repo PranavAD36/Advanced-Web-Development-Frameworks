@@ -1,6 +1,5 @@
 import React from 'react'
 
-// About component: displays student profile details and career goals
 export default function About() {
   return (
     <section id="about" className="about card glass-card">
